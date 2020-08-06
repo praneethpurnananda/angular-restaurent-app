@@ -1,0 +1,45 @@
+.main_div{
+  margin-left: 2%;
+  margin-top: 3%;
+  margin-right: 2%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.example-card {
+  max-width: 320px;
+  margin-bottom: 2%;
+  min-height: 25%;
+}
+
+.example-card img{
+  /* height: 63%; */
+}
+
+.example-card:hover{
+box-shadow: 3px 3px 3px 3px #c6b1b1;
+}
+
+.content h3{
+  font-size: 21px;
+}
+
+.content h5{
+  font-size: 17px;
+}
+
+.buttons{
+  margin-top: -4%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.buttons button{
+margin-left: 1.5%;
+margin-bottom: 2%;
+}
+
+.mat-chip{
+  font-size: 12px !important;
+}
